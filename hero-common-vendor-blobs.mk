@@ -240,7 +240,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.nfc@1.0-impl.so:system/vendor/lib64/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libagc_max.so:system/vendor/lib64/libagc_max.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libhr.so:system/vendor/lib64/libhr.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/libmaxflicker.so:system/vendor/lib64/libmaxflicker.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libflicker.so:system/vendor/lib64/libflicker.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libOpenCv.so:system/vendor/lib64/libOpenCv.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libril.so:system/vendor/lib64/libril.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libsec-ril-dsds.so:system/vendor/lib64/libsec-ril-dsds.so \
