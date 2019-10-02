@@ -233,6 +233,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib/vendor.samsung.hardware.radio@1.0.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libvndsecril-client.so:system/vendor/lib64/libvndsecril-client.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libvndsecril-client.so:system/vendor/lib/libvndsecril-client.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:system/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so \
   vendor/samsung/hero-common/proprietary/vendor/etc/init/init.gps.rc:system/vendor/etc/init/init.gps.rc \
   vendor/samsung/hero-common/proprietary/lib64/android.hardware.gnss@1.1.so:system/lib64/android.hardware.gnss@1.1.so \
