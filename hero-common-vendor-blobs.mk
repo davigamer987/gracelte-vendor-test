@@ -17,8 +17,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/android.hardware.radio.deprecated@1.0-26.so:system/lib64/android.hardware.radio.deprecated@1.0-26.so \
   vendor/samsung/hero-common/proprietary/lib/android.hardware.radio@1.0-26.so:system/lib/android.hardware.radio@1.0-26.so \
   vendor/samsung/hero-common/proprietary/lib64/android.hardware.radio@1.0-26.so:system/lib64/android.hardware.radio@1.0-26.so \
-  vendor/samsung/hero-common/proprietary/lib64/android.hardware.gnss@1.0-26.so:system/lib64/android.hardware.gnss@1.0-26.so \
-  vendor/samsung/hero-common/proprietary/lib/android.hardware.gnss@1.0-26.so:system/lib/android.hardware.gnss@1.0-26.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/libsecril-client.so:system/lib/libsecril-client.so \
   vendor/samsung/hero-common/proprietary/lib64/libGrallocWrapper.so:system/lib64/libGrallocWrapper.so \
@@ -235,12 +233,18 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib/vendor.samsung.hardware.radio@1.0.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:system/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so \
+  vendor/samsung/hero-common/proprietary/vendor/etc/init/init.gps.rc:system/vendor/etc/init/init.gps.rc \
+  vendor/samsung/hero-common/proprietary/lib64/android.hardware.gnss@1.1.so:system/lib64/android.hardware.gnss@1.1.so \
+  vendor/samsung/hero-common/proprietary/lib64/android.hardware.gnss@1.0.so:system/lib64/android.hardware.gnss@1.0.so \
+  vendor/samsung/hero-common/proprietary/lib/android.hardware.gnss@1.1.so:system/lib/android.hardware.gnss@1.1.so \
+  vendor/samsung/hero-common/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/nfc_nci.default.so:system/vendor/lib64/hw/nfc_nci.default.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.nfc@1.0-impl.so:system/vendor/lib64/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libagc_max.so:system/vendor/lib64/libagc_max.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libhr.so:system/vendor/lib64/libhr.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/libmaxflicker.so:system/vendor/lib64/libmaxflicker.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libflicker.so:system/vendor/lib64/libflicker.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libOpenCv.so:system/vendor/lib64/libOpenCv.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libril.so:system/vendor/lib64/libril.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libsec-ril-dsds.so:system/vendor/lib64/libsec-ril-dsds.so \
