@@ -27,11 +27,54 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
   vendor/samsung/hero-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-  vendor/samsung/hero-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libbauthserver.so:system/vendor/lib/libbauthserver.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libbauthtzcommon.so:system/vendor/lib/libbauthtzcommon.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:system/vendor/lib/libegis_fp_normal_sensor_test.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libgf_in_system_lib.so:system/vendor/lib/libgf_in_system_lib.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libqfp_sensortest.so:system/vendor/lib/libqfp_sensortest.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:system/vendor/lib/libsynaFpSensorTestNwd.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libMcClient.so:system/vendor/lib64/libMcClient.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libMcRegistry.so:system/vendor/lib64/libMcRegistry.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libbauthserver.so:system/vendor/lib64/libbauthserver.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libbauthtzcommon.so:system/vendor/lib64/libbauthtzcommon.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:system/vendor/lib64/libegis_fp_normal_sensor_test.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libgf_in_system_lib.so:system/vendor/lib64/libgf_in_system_lib.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libqfp_sensortest.so:system/vendor/lib64/libqfp_sensortest.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:system/vendor/lib64/libsynaFpSensorTestNwd.so \
+  vendor/samsung/hero-common/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin:system/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
+  vendor/samsung/hero-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:system/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-  vendor/samsung/hero-common/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
   vendor/samsung/hero-common/proprietary/etc/firmware/clearwater-dsp3-tx-nb.bin:system/etc/firmware/clearwater-dsp3-tx-nb.bin \
   vendor/samsung/hero-common/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:system/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
   vendor/samsung/hero-common/proprietary/etc/firmware/clearwater-dsp3-tx-wb.bin:system/etc/firmware/clearwater-dsp3-tx-wb.bin \
@@ -78,9 +121,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
   vendor/samsung/hero-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-  vendor/samsung/hero-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-  vendor/samsung/hero-common/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-  vendor/samsung/hero-common/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
   vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
   vendor/samsung/hero-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -100,25 +140,18 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
-  vendor/samsung/hero-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
-  vendor/samsung/hero-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
   vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
-  vendor/samsung/hero-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
   vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
   vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
   vendor/samsung/hero-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
-  vendor/samsung/hero-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
-  vendor/samsung/hero-common/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
-  vendor/samsung/hero-common/proprietary/lib64/libprotobuf-cpp-N.so:system/lib64/libprotobuf-cpp-N.so \
   vendor/samsung/hero-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
   vendor/samsung/hero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
   vendor/samsung/hero-common/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
