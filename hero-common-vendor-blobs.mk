@@ -225,7 +225,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/lib/hw/nfc_nci.default.so:system/vendor/lib/hw/nfc_nci.default.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib/libsensorndkbridge.so:system/vendor/lib/libsensorndkbridge.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/vendor.samsung.hardware.nfc@1.0.so:system/vendor/lib/vendor.samsung.hardware.nfc@1.0.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
