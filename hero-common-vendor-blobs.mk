@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:system/etc/firmware/moon-dsp6-lpsd-control.bin \
   vendor/samsung/hero-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
   vendor/samsung/hero-common/proprietary/etc/nfc/THL/sec_s3nrn81_rfreg.bin:system/etc/nfc/THL/sec_s3nrn81_rfreg.bin \
-  vendor/samsung/hero-common/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.vendor.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
