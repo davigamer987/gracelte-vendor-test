@@ -191,6 +191,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
   vendor/samsung/hero-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
   vendor/samsung/hero-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
+  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0168.0416_murata.hcd:system/vendor/firmware/bcm4359C0_V0168.0416_murata.hcd \
+  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0168.0417_semco.hcd:system/vendor/firmware/bcm4359C0_V0168.0417_semco.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0147.0335_murata.hcd:system/vendor/firmware/bcm4359C0_V0147.0335_murata.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0147.0336_semco.hcd:system/vendor/firmware/bcm4359C0_V0147.0336_semco.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_2l1_master_setfile.bin:system/vendor/firmware/companion_2l1_master_setfile.bin \
@@ -237,4 +239,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libflicker.so:system/vendor/lib64/libflicker.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libOpenCv.so:system/vendor/lib64/libOpenCv.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@1.0.so:system/vendor/lib64/vendor.samsung.hardware.nfc@1.0.so \
-  vendor/samsung/hero-common/proprietary/product/lib64/libaptX_encoder.so:system/product/lib64/libaptX_encoder.so
+  vendor/samsung/hero-common/proprietary/product/lib64/libaptX_encoder.so:system/product/lib64/libaptX_encoder.so \
+  vendor/samsung/hero-common/proprietary/product/lib64/libaptXHD_encoder.so:system/product/lib64/libaptXHD_encoder.so
+
