@@ -16,4 +16,4 @@
 PRODUCT_PACKAGES += \
    libGLES_mali
 
-$(call inherit-product, vendor/samsung/hero-common/hero-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/grace-common/grace-common-vendor-blobs.mk)
