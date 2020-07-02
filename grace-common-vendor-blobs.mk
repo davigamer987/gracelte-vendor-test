@@ -156,18 +156,22 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:system/vendor/etc/wifi/bcmdhd_apsta.bin_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_c0:system/vendor/etc/wifi/bcmdhd_apsta.bin_c0 \
+  vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:system/vendor/etc/wifi/bcmdhd_clm.blob \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:system/vendor/etc/wifi/bcmdhd_ibss.bin_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0:system/vendor/etc/wifi/bcmdhd_ibss.bin_c0 \
+  vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0_plus_blob:system/vendor/etc/wifi/bcmdhd_ibss.bin_c0_plus_blob \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:system/vendor/etc/wifi/bcmdhd_mfg.bin_b1  \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0:system/vendor/etc/wifi/bcmdhd_mfg.bin_c0 \
+  vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0_plus_blob:system/vendor/etc/wifi/bcmdhd_mfg.bin_c0_plus_blob \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:system/vendor/etc/wifi/bcmdhd_mfg2.bin_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_c0:system/vendor/etc/wifi/bcmdhd_mfg2.bin_c0 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:system/vendor/etc/wifi/bcmdhd_sta.bin_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0:system/vendor/etc/wifi/bcmdhd_sta.bin_c0 \
+  vendor/samsung/grace-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0_plus_blob:system/vendor/etc/wifi/bcmdhd_sta.bin_c0_plus_blob \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/indoorchannel.info:system/vendor/etc/wifi/indoorchannel.info \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
@@ -182,9 +186,11 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:system/vendor/etc/wifi/nvram_net.txt_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0:system/vendor/etc/wifi/nvram_net.txt_c0 \
+  vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0_plus:system/vendor/etc/wifi/nvram_net.txt_c0_plus \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:system/vendor/etc/wifi/nvram_net.txt_murata \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:system/vendor/etc/wifi/nvram_net.txt_murata_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0:system/vendor/etc/wifi/nvram_net.txt_murata_c0 \
+  vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0_plus:system/vendor/etc/wifi/nvram_net.txt_murata_c0_plus \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:system/vendor/etc/wifi/nvram_net.txt_wisol \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:system/vendor/etc/wifi/nvram_net.txt_wisol_b1 \
   vendor/samsung/grace-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_c0:system/vendor/etc/wifi/nvram_net.txt_wisol_c0 \
