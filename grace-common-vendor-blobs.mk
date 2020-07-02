@@ -41,34 +41,39 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin \
-  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin:system/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
-  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000030.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000030.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000047.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000047.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000060.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000060.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin:system/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+  vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
   vendor/samsung/grace-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
-  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:system/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
-  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000042.tlbin:system/app/mcRegistry/ffffffff000000000000000000000042.tlbin \
+  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:system/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
   vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-  vendor/samsung/grace-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
   vendor/samsung/grace-common/proprietary/etc/firmware/clearwater-dsp3-tx-nb.bin:system/etc/firmware/clearwater-dsp3-tx-nb.bin \
   vendor/samsung/grace-common/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:system/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
   vendor/samsung/grace-common/proprietary/etc/firmware/clearwater-dsp3-tx-wb.bin:system/etc/firmware/clearwater-dsp3-tx-wb.bin \
