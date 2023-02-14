@@ -13,7 +13,5 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
-PRODUCT_PACKAGES += \
-   libGLES_mali
 
-$(call inherit-product, vendor/samsung/grace-common/grace-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/gracelte/gracelte-vendor-blobs.mk)
